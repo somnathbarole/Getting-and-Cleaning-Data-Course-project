@@ -60,7 +60,14 @@ DataExt: Extracted measurements on mean and standard deviation for each measurem
 TidyData: Tidy data set with average of each variable for each activity and each subject
 
 ## Parameters / Variables in Tidy data set
-The parameters in the tidy data set are given below. These are already given in the descriptive fashion and further description explanation of these parameters is not given.
+The parameters in the tidy data set are given below. These are already given in the descriptive fashion and further description/explanation of these parameters is not given.
+
+In general these variables can be interpreted in following way and can be extended to all variables. <br />
+
+TimeDomainBodyAccelerometer-mean()-X : Mean of time domain body acceleration in X direction. <br />
+TimeDomainBodyAccelerometer-StandardDeviation()-X : Standard deviation of time domain body acceleration in X direction, etc
+
+
 The acceleration signal from accelerometer X axis in standard gravity has unit 'g' and the angular velocity vector measured by the gyroscope has the unit radian/sec.
 
 Subject
