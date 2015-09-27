@@ -70,9 +70,9 @@ TimeDomainBodyAccelerometer-StandardDeviation()-X : Standard deviation of time d
 
 The acceleration signal from accelerometer X axis in standard gravity has unit 'g' and the angular velocity vector measured by the gyroscope has the unit radian/sec.
 
-Subject
+Subject : Subject ID
 
-Activity
+Activity : Activity performed by volunterr during gathering the data
 
 TimeDomainBodyAccelerometer-mean()-X
 
