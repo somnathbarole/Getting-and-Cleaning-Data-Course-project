@@ -72,7 +72,7 @@ The acceleration signal from accelerometer X axis in standard gravity has unit '
 
 Subject : Subject ID
 
-Activity : Activity performed by volunterr during gathering the data
+Activity : Activity performed by volunteer during gathering the data
 
 TimeDomainBodyAccelerometer-mean()-X
 
