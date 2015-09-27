@@ -57,7 +57,7 @@ CompleteData: Merged test & training data
 
 DataExt: Extracted measurements on mean and standard deviation for each measurement
 
-TidyData: Tidy data set with average of each variable for each activity and each subject; dimensions 180 x 88
+TidyData: Tidy data set with average of each variable for each activity and each subject; dimensions 180 x 88. Note that measurements with string mean(), Mean and std in the feature names are extracted; function grep() is used to extract these measurements.
 
 ## Parameters / Variables in Tidy data set
 The parameters in the tidy data set are given below. These are already given in the descriptive fashion and further description/explanation of these parameters is not given.
