@@ -30,6 +30,7 @@ Please make sure to set the working directory as explained below before running 
 "/UCI HAR Dataset" for reading activity_labels.txt and features.txt <br />
 "/UCI HAR Dataset/test" for reading subject_test.txt, X_test.txt and y_test.txt <br />
 "/UCI HAR Dataset/train" for reading subject_train.txt, X_train.txt and y_train.txt <br />
+After running the code it will generate the text file "TidyData.txt" and this file will be stored in the working directory; in perticular "/UCI HAR Dataset/train" folder in this case.
 
 ## Additional information:
 Please refer the CodeBook.md for more information about the variables, data, etc.

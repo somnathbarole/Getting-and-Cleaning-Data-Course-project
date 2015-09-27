@@ -85,5 +85,6 @@ names(Data) <- gsub("tBody", "TimeDomainBody", names(Data))
 meltData <- melt(Data, id=c("VolunteerID", "Activity"))
 TidyData <- dcast(meltData, VolunteerID+Activity ~ variable, mean)
 colnames(TidyData)[1] <- "Subject"
+head(TidyData)
 View(TidyData)
 write.table(TidyData, file = "TidyData.txt", row.name = FALSE)
